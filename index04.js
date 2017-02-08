@@ -1,5 +1,6 @@
 const process = require('process'),
-      aws  = require('aws-iot-device-sdk');
+      fs      = require('fs'),
+      aws     = require('aws-iot-device-sdk');
 
 var Device = function(o) {
 
